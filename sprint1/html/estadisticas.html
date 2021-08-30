@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/statistics.css">
+  <title> Estadisticas  </title>
+</head>
+<body>
+
+  <header id="header">
+    <h2 id="header__title"> Estadísticas </h2>
+    <p id="header__nav"> Los últimos 7 días  </p>
+  </header>
+
+  <main id="main">
+    <section id="main__study-time" class="card-statistc">
+      <div class="container__card__name">
+        <img src="../img/clock.svg" alt="clock" />
+        <p> Tiempo de estudio (horas) </p>
+      </div>
+      <p id="main__study-time__value">  </p>
+    </section>
+
+    <section id="main__ans-total" class="card-statistc">
+      <div class="container__card__name">
+        <img src="../img/message.svg" alt="message" />
+        <p> Respuestas contestadas </p>
+      </div>
+      <p id="main__ans-total__value">  </p>
+    </section>
+
+    <section id="main__ans-correct" class="card-statistc">
+      <div class="container__card__name">
+        <img src="../img/message.svg" alt="message" />  
+        <p> Respuestas correctas </p>
+      </div>
+      <p class="green" id="main__ans-correct__value"> </p>
+    </section>
+
+    <section id="main__ans-incorrect" class="card-statistc">
+      <div class="container__card__name">
+        <img src="../img/message.svg" alt="message" />  
+        <p> Respuestas incorrectas </p>
+      </div>
+      <p class="red" id="main__ans-incorrect__value">  </p>
+    </section>
+  </main>
+  
+  <footer id="footer">
+    <nav id="footer__nav-bar">
+
+      <a href="secciones.html" class="footer__nav-bar__link" id="home">
+        <img src="../img/home_icon.svg" alt="" class="footer__nav-bar__img"/>
+        <p> Home </p>
+      </a>
+
+      <a href="#" class="footer__nav-bar__link" id="activity">
+        <img src="../img/activity_icon.svg" alt="" class="footer__nav-bar__img"/>
+        <p> Estadística </p>
+      </a>
+
+      <a href="perfil.html" class="footer__nav-bar__link" id="user">
+        <img src="../img/user_icon.svg" alt="" class="footer__nav-bar__img"/>
+        <p> Perfil </p>
+      </a>
+
+    </nav>
+  </footer>
+
+  <script src="../scripts/estadisticas.js"></script>
+</body>
+</html>

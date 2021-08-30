@@ -1,0 +1,88 @@
+/*---- header ----*/
+#header_title{
+  margin: 1.55rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+/* ---- main ----*/
+
+/* profile */
+#main__profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+#main__profile__img{
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: .8rem;
+}
+
+#main__profile__name{
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 2.4rem;
+  margin: 0;
+}
+
+#main__profile__email{
+  height: 2.4rem;
+  font-size: 1.3rem;
+}
+
+/* sesion */
+#main__sesion{
+  margin-top: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;;
+}
+
+#main__sesion__edit-button{
+  cursor: pointer;
+  width: max-content;
+  margin: auto; 
+  color: #2CB67D;
+}
+
+
+/* modal */
+#main__sesion__edit-modal{
+  background-color: #232E35;
+  color: #000000;
+  color: whitesmoke;
+  text-align: left;
+}
+
+.modal-content{
+  background-color: #44535e;
+}
+
+.modal-header{
+  border-bottom: .2rem solid #faeacc6c;
+}
+
+.close{
+  border: none;
+  background-color: #0000000e;
+}
+
+.modal-footer button:last-child{
+  background-color: #2CB67D;
+  border: #17724c;
+}
+
+.modal-footer{
+  border-top: .2rem solid #faeacc6c;
+}
+
+/* sign off */
+#main__sesion__edit-button__sign-off{
+  cursor: pointer;
+  width: max-content;
+  margin: .5rem auto;
+  color: #EF4565;
+}

@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Elver",
+      "email": "elver@gmail.com",
+      "globalTotal": {
+        "html": 0,
+        "css": 1
+      },
+      "data": {
+        "vidas": 2,
+        "totalResuelto": {
+          "html": 0,
+          "css": 3
+        }
+      },
+      "total": {
+        "correct": 34,
+        "incorrect": 22,
+        "time": 0
+      },
+      "id": 0
+    }
+  ]
+}
